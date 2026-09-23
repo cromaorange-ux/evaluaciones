@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import requests
 from datetime import datetime
-from supabase import create_client, Client
+#from supabase import create_client, Client
 
 # --- CONFIGURACIÓN DE CONEXIÓN A SUPABASE ---
 SUPABASE_URL = "https://vezkigrbksmsndasxldu.supabase.co"
