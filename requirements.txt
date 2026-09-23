@@ -1,6 +1,19 @@
 streamlit
+<<<<<<< HEAD
 supabase
 openpyxl
 pandas
 plotly
 requests
+=======
+pandas
+plotly
+supabase
+google-genai
+pypdf
+reportlab
+anthropic
+pandas
+openpyxl
+requests
+>>>>>>> c898681eadcb77e0818cd11710125748ef27b5e4
