@@ -4,13 +4,3 @@ openpyxl
 pandas
 plotly
 requests
-pandas
-plotly
-supabase
-google-genai
-pypdf
-reportlab
-anthropic
-pandas
-openpyxl
-requests
