@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-#import openpyxl
+import openpyxl
 import json
 import requests
 from datetime import datetime
-#from supabase import create_client, Client
+from supabase import create_client, Client
 
 # ---------------------------------------------------------
 # CREDENCIALES Y CLIENTES
