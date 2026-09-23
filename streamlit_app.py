@@ -1,15 +1,18 @@
 import streamlit as st
 import pandas as pd
-import openpyxl
+#import openpyxl
 import json
 import requests
 from datetime import datetime
-from supabase import create_client, Client
+#from supabase import create_client, Client
 
-# --- CONFIGURACIÓN DE CONEXIÓN A SUPABASE ---
-SUPABASE_URL = "https://vezkigrbksmsndasxldu.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZlemtpZ3Jia3Ntc25kYXN4bGR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyNTgyMjgsImV4cCI6MjEwMzgzNDIyOH0.0jkzfl0zceROHR0Xl00r-5TthJ7Z5neqY7b4h9PAyzw"
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+# ---------------------------------------------------------
+# CREDENCIALES Y CLIENTES
+# ---------------------------------------------------------
+SUPABASE_URL = st.secrets.get("SUPABASE_URL", "")
+SUPABASE_KEY = st.secrets.get("SUPABASE_KEY", "")
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "")
+CLAUDE_API_KEY = st.secrets.get("ANTHROPIC_API_KEY", "")
 
 st.set_page_config(page_title="Sistema de Evaluaciones y Análisis IA", layout="wide")
 
