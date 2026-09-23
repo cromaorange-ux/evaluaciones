@@ -8,3 +8,4 @@ reportlab
 anthropic
 pandas
 openpyxl
+requests
