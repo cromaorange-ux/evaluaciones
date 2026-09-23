@@ -1,4 +1,6 @@
 streamlit
 supabase
-google-genai
-pypdf
+openpyxl
+pandas
+plotly
+requests
